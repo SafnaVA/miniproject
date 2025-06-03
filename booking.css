@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: none;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePpmpsCkl9l9Qj7h8zWkZT1CbcNN0hWAojQ&s");
+    background-size: cover;
+
+}
+.navbar {
+    background-color: black; /* Green background */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space between links */
+    position: relative;
+}
+
+.navbar a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    background-color: black; /* Darker green on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+.container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.booking-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0e0e0e;
+}

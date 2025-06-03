@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: rgb(251, 243, 243);
+    padding: 0px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin:  auto;
+    padding: 0 20px;
+}
+
+.logout {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #0f0f0f;
+    padding: 20px;
+}
+
+.sidebar-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-links li {
+    margin: 10px 0;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: #faf0f0;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar-links a:hover {
+    background-color: #090909;
+}
+
+main {
+    flex: 1;
+    padding:20px;
+}
+
+
+
+
+/* Table Styles */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 6px; /* Increased padding for better spacing */
+    border: 1px solid #dddddd; /* Light gray border */
+    text-align: left;
+}
+
+th {
+    background: #0a0a0a; /* Dark background for headers */
+    color: #ffffff; /* White text for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9; /* Light gray for even rows */
+}
+
+tr:hover {
+    background: #eaeaea; /* Light hover effect for rows */
+}
+
+form {
+   
+    align-items: center; /* Center align items vertically */
+}
+
+input[type="number"] {
+    width: 100px; /* Adjusted width for better visibility */
+    margin-right: 10px; /* Space between input and button */
+    padding: 5px; /* Padding for input */
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #020202; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove border */
+    padding: 6px 12px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+input[type="submit"]:hover {
+    background-color: #5a636d; /* Darker shade on hover */
+}
+td img {
+    width: 100px; /* Set a specific width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
